@@ -11,8 +11,10 @@ input = st.text_input("Enter the topic", key='input')
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
 if uploaded_file is not None:
+    # Open the uploaded image
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image.", use_column_width=True)
+    #To display the image
+    st.image(image, caption="Uploaded Image (Resized)", use_column_width=True)
 
 button = st.button("Get Blog content")
 
