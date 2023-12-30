@@ -1,4 +1,4 @@
-# Blog-Generator-Gemini
+# Blog-Post-Generator
 
 ## About The Project
 
@@ -50,13 +50,16 @@ Follow these steps to install and set up the project directly from the GitHub re
      pip install -r requirements.txt
      ```
 
-5. **Run the Project**
+5. **API Key**
+   - Make sure you create a .env file and store your Google API key
+
+6. **Run the Project**
    - Start the project by running the appropriate command.
      ```
      streamlit run app.py
      ```
 
-6. **Access the Project**
+7. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
 
 ## License
