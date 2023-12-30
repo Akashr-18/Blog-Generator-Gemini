@@ -2,7 +2,19 @@
 
 ## About The Project
 
+Introducing a cutting-edge Blog Content Generator app, powered by a state-of-the-art multimodal text generation model. This innovative tool revolutionizes content creation by seamlessly translating text and images into captivating blog posts. Whether you're kickstarting your creativity with a text prompt or seeking to transform visuals into compelling narratives, this app unleashes the power of AI to effortlessly generate engaging and high-quality blog content. Elevate your blogging experience with the Blog Content Generator app – where inspiration meets automation for a seamless content creation journey.
+
+
 ## Built With
+
+ - Google-generativeai
+ - Streamlit
+
+## Models used
+
+ - gemini-pro
+ - gemini-pro-vision
+
 
 ## Installation Steps
 
@@ -15,7 +27,6 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
      git clone https://github.com/Akashr-18/Blog-Generator-Gemini.git
      ```
-     <br>
 
 2. **Create a Virtual Environment** (Optional but recommended)
    - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
