@@ -15,7 +15,8 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
      git clone https://github.com/Akashr-18/Blog-Generator-Gemini.git
      ```
-<br>
+     <br>
+
 2. **Create a Virtual Environment** (Optional but recommended)
    - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
      ```
