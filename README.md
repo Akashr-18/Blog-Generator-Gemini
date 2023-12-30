@@ -51,7 +51,7 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
 
 5. **API Key**
-   - Make sure you create a .env file and store your Google API key
+   - Make sure you create a file named .env and store your Google API key
 
 6. **Run the Project**
    - Start the project by running the appropriate command.
