@@ -33,9 +33,9 @@ Follow these steps to install and set up the project directly from the GitHub re
 
 4. **Activate the Virtual Environment** (Optional)
 
-       ```
-       conda activate <Environment_Name>/
-       ```
+      ```
+      conda activate <Environment_Name>/
+      ```
 
 5. **Install Dependencies**
 
