@@ -21,45 +21,42 @@ Introducing a cutting-edge Blog Content Generator app, powered by a state-of-the
 Follow these steps to install and set up the project directly from the GitHub repository:
 
 1. **Clone the Repository**
-   - Open your terminal or command prompt.
-   - Navigate to the directory where you want to install the project.
-   - Run the following command to clone the GitHub repository:
      ```
      git clone https://github.com/Akashr-18/Blog-Generator-Gemini.git
      ```
 
 2. **Create a Virtual Environment** (Optional but recommended)
-   - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
+   
      ```
      conda create -p <Environment_Name> python==<python version> -y
      ```
 
-3. **Activate the Virtual Environment** (Optional)
-   - Activate the virtual environment based on your operating system:
+4. **Activate the Virtual Environment** (Optional)
+
        ```
        conda activate <Environment_Name>/
        ```
 
-4. **Install Dependencies**
-   - Navigate to the project directory:
+5. **Install Dependencies**
+
      ```
      cd [project_directory]
      ```
-   - Run the following command to install project dependencies:
+     
      ```
      pip install -r requirements.txt
      ```
 
-5. **API Key**
+6. **API Key**
    - Make sure you create a file named .env and store your Google API key
 
-6. **Run the Project**
-   - Start the project by running the appropriate command.
+7. **Run the Project**
+   
      ```
      streamlit run app.py
      ```
 
-7. **Access the Project**
+9. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
 
 ## License
