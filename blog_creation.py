@@ -9,6 +9,7 @@ genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 def gemini_blog_creation(image, input):
     """
     Input: image and input
+    Output: response
     """
     model = genai.GenerativeModel('gemini-pro')
     model_vision = genai.GenerativeModel('gemini-pro-vision')
