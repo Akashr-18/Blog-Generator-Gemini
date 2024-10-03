@@ -5,7 +5,6 @@ from blog_creation import gemini_blog_creation
 
 st.set_page_config("Blog Post Generator")
 st.header("Blog Post  Generator")
-
 input = st.text_input("Enter the topic", key='input')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
