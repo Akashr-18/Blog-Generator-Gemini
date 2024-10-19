@@ -21,3 +21,4 @@ if button:
     response = gemini_blog_creation(image, input)
     st.subheader("Response: ")
     st.write(response.text)
+else:
