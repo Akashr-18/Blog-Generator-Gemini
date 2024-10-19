@@ -22,3 +22,4 @@ if button:
     st.subheader("Response: ")
     st.write(response.text)
 else:
+    pass
