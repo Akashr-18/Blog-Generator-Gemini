@@ -13,6 +13,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image (Resized)", use_column_width=True)
 else:
+    pass
 
 button = st.button("Get Blog content")
 
